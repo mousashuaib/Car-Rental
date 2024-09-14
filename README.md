@@ -40,3 +40,6 @@
     <li><strong>Database:</strong> MySQL</li>
     <li><strong>Styling:</strong> Responsive design using external CSS to ensure a consistent and user-friendly interface.</li>
 </ul>
+
+
+![Capture](https://github.com/user-attachments/assets/4aa25c90-e43d-4edf-8d1f-51c91473b3dd)
