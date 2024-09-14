@@ -1,28 +1,105 @@
-Car Rental Booking App 🚗
-Welcome to the Car Rental Booking App repository! This web application allows users to browse available cars, make bookings, and manage reservations seamlessly. It's designed to offer an intuitive experience for both customers and administrators managing car rentals.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palestinian Souvenirs Online Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
 
-Features 🎯
-For Customers
-Customer Registration: Securely sign up and create an account.
-Browse Cars: View available cars with details like model, price, and availability.
-Book a Car: Reserve a car for a specific date and time.
-View and Manage Bookings: Check current and past bookings, and make changes before confirmation.
-Real-time Availability: See the most up-to-date car availability.
-For Admins/Employees
-Manage Cars: Add, update, or remove cars from the inventory.
-Process Bookings: Review and confirm customer bookings.
-View Booking Details: Access and manage booking records for cars and customers.
-Adjust Car Availability: Update car status in real-time as bookings are processed.
-Core Functionalities 🔧
-Dynamic Content: PHP scripts dynamically generate content based on user interactions.
-Inventory Management: Admins can manage car details, including model, description, price, and availability.
-Real-time Booking: Ensure users have access to the latest car availability.
-Secure User Authentication: Customers and admins have secure login and session management.
-Comprehensive Booking System: Easy-to-use system for placing and managing car rental bookings.
-Technical Stack 💻
-Frontend: HTML, CSS
-Backend: PHP
-Database: MySQL
-Styling: External CSS files for a clean, responsive design.
-About 🛠️
-The Car Rental Booking App simplifies the car rental process by providing an intuitive platform for customers to make bookings and admins to manage the entire rental process. Whether you're renting a car or managing fleet availability, this app ensures a smooth experience.
+        h1, h2, h3 {
+            color: #2b2b2b;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+
+        h2 {
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            font-size: 1.5em;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-weight: bold;
+        }
+
+        .code {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Palestinian Souvenirs Online Store</h1>
+
+    <section>
+        <h2>Overview</h2>
+        <p>Welcome to the repository of the Palestinian Souvenirs Online Store, a dynamic web platform designed to market and sell a wide range of Palestinian handcrafts to international customers. This project aims to provide a seamless shopping experience for users looking to purchase authentic Palestinian souvenirs online. With functionalities catering to both customers and store employees, this platform ensures an efficient and user-friendly interface for browsing, managing inventory, and processing orders.</p>
+    </section>
+
+    <section>
+        <h2>Features</h2>
+
+        <h3>For Customers</h3>
+        <ul>
+            <li><strong>Customer Registration:</strong> Securely register and create a customer account.</li>
+            <li><strong>Product Search:</strong> Easily search through the inventory by product name and price.</li>
+            <li><strong>Place Orders:</strong> Add items to your shopping cart and place orders online.</li>
+            <li><strong>View Orders:</strong> Check the details and status of your current and past orders.</li>
+            <li><strong>Modify Orders:</strong> Add or remove items from your order before final confirmation.</li>
+        </ul>
+
+        <h3>For Employees</h3>
+        <ul>
+            <li><strong>Process Orders:</strong> Review, process, and update the status of customer orders.</li>
+            <li><strong>View Orders:</strong> Access order details for processing and management.</li>
+            <li><strong>Manage Inventory:</strong> Add new products, update existing product details, and adjust inventory levels.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Core Functionalities</h2>
+        <ul>
+            <li><strong>Dynamic HTML Pages:</strong> Utilizing PHP scripts to generate content dynamically.</li>
+            <li><strong>Inventory Management:</strong> Employees can manage product details, including name, description, price, category, and quantity.</li>
+            <li><strong>Product Categories:</strong> Products are categorized for easier management and browsing (e.g., new arrival, on sale, featured).</li>
+            <li><strong>Secure Customer Registration and Login:</strong> Implemented with session management for security and user convenience.</li>
+            <li><strong>Order Management:</strong> Comprehensive system for placing, viewing, and managing orders.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Technical Stack</h2>
+        <ul>
+            <li><strong>Frontend:</strong> HTML, CSS</li>
+            <li><strong>Backend:</strong> PHP</li>
+            <li><strong>Database:</strong> MySQL</li>
+            <li><strong>Styling:</strong> External CSS files for layout and design consistency, following specific CSS requirements for dynamic, responsive design.</li>
+        </ul>
+    </section>
+
+</body>
+</html>
